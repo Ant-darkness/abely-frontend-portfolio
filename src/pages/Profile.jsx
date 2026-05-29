@@ -6,7 +6,7 @@ export default function Profile() {
     <div className="max-w-4xl mx-auto py-12 flex flex-col md:flex-row items-center gap-12">
       <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-cyan-500 shadow-lg shadow-cyan-500/20 flex-shrink-0">
         <img 
-          src="/public/kaka.jpg" 
+          src="/kaka.jpg" 
           alt="Abely J. Ntandu" 
           className="w-full h-full object-cover"
         />
