@@ -2,14 +2,16 @@ import { FaGithub, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 border-t border-slate-800 py-6 px-6 mt-12">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    <footer className="w-full bg-slate-950 border-t border-slate-800 py-6 px-4 md:px-8 mt-12">
+      {/* 1. Tumeongeza 'px-4' hapa ndani pia ili maudhui yasiguse kioo kabisa kwenye simu */}
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 gap-4 md:gap-0">
 
         <p className="text-sm text-slate-500 text-center md:text-left">
           © 2026 Abely J. Ntandu. All rights reserved.
         </p>
 
-        <div className="flex items-center space-x-6 mt-4 md:mt-0">
+        {/* 2. Tumeondoa space-x-6 tukatumia 'gap-6' ambayo ni bora zaidi kwa flexbox ya kisasa */}
+        <div className="flex items-center gap-6">
 
           {/* GitHub */}
           <a
