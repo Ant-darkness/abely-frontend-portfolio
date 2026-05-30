@@ -3,7 +3,7 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 export default function Qualifications() {
   const experiences = [
     { 
-      title: "Data Scientist / Aspiring Engineer", 
+      title: "Aspiring Data Scientist", 
       institution: "Tanzania Sector", 
       period: "Present", 
       desc: "Developing advanced data structures, optimization models, and deploying machine learning solutions targeting impactful socio-economic analytics." 

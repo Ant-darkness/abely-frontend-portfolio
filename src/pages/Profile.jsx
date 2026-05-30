@@ -18,7 +18,7 @@ export default function Profile() {
       {/* TEXT SECTION */}
       <div className="flex-grow text-center md:text-left min-w-0">
         <span className="text-cyan-400 font-semibold uppercase tracking-wider text-xs sm:text-sm">
-          Data Scientist
+          Aspiring Data Scientist
         </span>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-2 mb-4">
           Abely Ntandu
